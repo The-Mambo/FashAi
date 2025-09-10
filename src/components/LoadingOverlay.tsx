@@ -33,4 +33,3 @@ export function LoadingOverlay({ isVisible, message = 'Generating your AI look..
     </div>
   );
 }
-</parameter>
