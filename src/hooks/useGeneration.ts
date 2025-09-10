@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { GenerationRequest, GenerationResult, UploadedImage, StyleTemplate } from '../types';
+import { GenerationRequest, GenerationResult } from '../types';
 import { ReplicateService } from '../utils/replicate';
 
 export function useGeneration() {
