@@ -3,7 +3,7 @@ import { GenerationRequest, GenerationResult } from '../types';
 
 // Note: In production, this should be handled server-side to keep API keys secure
 const replicate = new Replicate({
-  auth: process.env.VITE_REPLICATE_API_TOKEN || '',
+  auth: import.meta.env.VITE_REPLICATE_API_TOKEN || '',
 });
 
 export class ReplicateService {
